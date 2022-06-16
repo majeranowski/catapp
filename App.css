@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+button {
+  font-weight: bold;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+
+img, button {
+  margin-top: 15px;
+}
+
+.yes {
+  background-color: green;
+}
+
+.no {
+  background-color: red;
+}
